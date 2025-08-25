@@ -61,33 +61,25 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Cột Phải: Form liên hệ */}
-          {/* Cột Phải: Form Đặt Bàn - THAY ĐỔI HOÀN TOÀN */}
+          {/* Cột Phải: Form Đặt Bàn - ĐÃ SỬA LẠI RESPONSIVE */}
           <div className="md:w-2/3 w-full">
-            {/* Dán link Formspree mới của bạn vào đây */}
             <form action="https://formspree.io/f/YOUR_NEW_ID" method="POST" className="flex flex-col gap-6">
-              {/* Hàng 1: Tên và Email */}
-              <div className="flex flex-col md:flex-row gap-6">
+              
+              {/* Thay vì nhóm 2, ta sẽ nhóm 4 trường đầu tiên */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <input type="text" name="Name" placeholder="Ihr Name" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
                 <input type="email" name="Email" placeholder="Ihre Email" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
-              </div>
-              
-              {/* Hàng 2: SĐT và Số lượng người */}
-              <div className="flex flex-col md:flex-row gap-6">
                 <input type="tel" name="Phone" placeholder="Ihre Telefonnummer" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
                 <input type="number" name="Anzahl_Personen" placeholder="Anzahl Personen" min="1" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
               </div>
 
-              {/* Hàng 3: Ngày và Giờ */}
-              <div className="flex flex-col md:flex-row gap-6">
-                <input type="date" name="Datum" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
-                <input type="time" name="Uhrzeit" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
-              </div>
+              {/* **SỬA Ở ĐÂY: Các trường Ngày và Giờ bây giờ sẽ nằm riêng lẻ** */}
+              {/* Chúng sẽ luôn chiếm 100% chiều rộng, tránh bị vỡ layout */}
+              <input type="date" name="Datum" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+              <input type="time" name="Uhrzeit" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
 
-              {/* Hàng 4: Tin nhắn/Ghi chú */}
               <textarea name="Nachricht" rows="4" placeholder="Besondere Wünsche oder Anmerkungen" className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition"></textarea>
               
-              {/* Nút Submit */}
               <div className="text-center mt-4">
                 <button type="submit" 
                   className="bg-amber-500 text-black font-bold text-lg py-4 px-10 rounded-full 
