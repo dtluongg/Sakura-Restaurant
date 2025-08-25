@@ -56,17 +56,17 @@ const Header = () => {
         </h1>
         <nav className="hidden md:block">
           <ul className="flex items-center space-x-6">
-            <li><a href="#" className="text-amber-400 font-bold">Home</a></li>
-            <li><a href="#about" className="hover:text-amber-400">About</a></li>
-            <li><a href="#menu" className="hover:text-amber-400">Menu</a></li>
-            <li><a href="#specials" className="hover:text-amber-400">Specials</a></li>
-            <li><a href="#events" className="hover:text-amber-400">Events</a></li>
-            <li><a href="#gallery" className="hover:text-amber-400">Gallery</a></li>
-            <li><a href="#contact" className="hover:text-amber-400">Contact</a></li>
+            <li><a href="#" className="text-amber-400 font-bold">Startseite</a></li>
+            <li><a href="#about" className="hover:text-amber-400">Über Uns</a></li>
+            <li><a href="#menu" className="hover:text-amber-400">Speisekarte</a></li>
+            <li><a href="#specials" className="hover:text-amber-400">Sonderangebote</a></li>
+            <li><a href="#events" className="hover:text-amber-400">Veranstaltungen</a></li>
+            <li><a href="#gallery" className="hover:text-amber-400">Galerie</a></li>
+            <li><a href="#contact" className="hover:text-amber-400">Kontakt</a></li>
           </ul>
         </nav>
         <a href="#booking" className="border border-amber-400 text-amber-400 rounded-full px-6 py-2 hover:bg-amber-400 hover:text-white transition duration-300 hidden md:block">
-          BOOK A TABLE
+          TISCH RESERVIEREN
         </a>
       </div>
     </header>

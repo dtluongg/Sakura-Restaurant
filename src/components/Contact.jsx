@@ -35,7 +35,7 @@ const Contact = () => {
               <div className="bg-amber-500 p-3 rounded-full mr-4"><IoLocationSharp className="text-white text-2xl" /></div>
               <div>
                 <h3 className="text-xl font-bold">Location:</h3>
-                <p className="text-gray-400">{contactData.location}</p>
+                <p className="text-gray-400">{contactData.address}</p>
               </div>
             </div>
             <div className="flex items-start mb-6">
@@ -56,23 +56,46 @@ const Contact = () => {
               <div className="bg-amber-500 p-3 rounded-full mr-4"><IoCall className="text-white text-2xl" /></div>
               <div>
                 <h3 className="text-xl font-bold">Call:</h3>
-                <p className="text-gray-400">{contactData.call}</p>
+                <p className="text-gray-400">{contactData.phone}</p>
               </div>
             </div>
           </div>
 
           {/* Cột Phải: Form liên hệ */}
-          <div className="md:w-2/3">
-            {/* Quan trọng: Thay thế action bằng link Formspree của bạn */}
-            <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" className="flex flex-col gap-4">
-              <div className="flex gap-4">
-                <input type="text" name="name" placeholder="Your Name" required className="w-1/2 bg-[#1a1814] border border-gray-600 p-3 text-white focus:outline-none focus:ring-2 focus:ring-amber-500" />
-                <input type="email" name="email" placeholder="Your Email" required className="w-1/2 bg-[#1a1814] border border-gray-600 p-3 text-white focus:outline-none focus:ring-2 focus:ring-amber-500" />
+          {/* Cột Phải: Form Đặt Bàn - THAY ĐỔI HOÀN TOÀN */}
+          <div className="md:w-2/3 w-full">
+            {/* Dán link Formspree mới của bạn vào đây */}
+            <form action="https://formspree.io/f/YOUR_NEW_ID" method="POST" className="flex flex-col gap-6">
+              {/* Hàng 1: Tên và Email */}
+              <div className="flex flex-col md:flex-row gap-6">
+                <input type="text" name="Name" placeholder="Ihr Name" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+                <input type="email" name="Email" placeholder="Ihre Email" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
               </div>
-              <input type="text" name="subject" placeholder="Subject" required className="w-full bg-[#1a1814] border border-gray-600 p-3 text-white focus:outline-none focus:ring-2 focus:ring-amber-500" />
-              <textarea name="message" rows="5" placeholder="Message" required className="w-full bg-[#1a1814] border border-gray-600 p-3 text-white focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
-              <div className="text-center">
-                <button type="submit" className="bg-amber-500 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-600 transition">Send Message</button>
+              
+              {/* Hàng 2: SĐT và Số lượng người */}
+              <div className="flex flex-col md:flex-row gap-6">
+                <input type="tel" name="Phone" placeholder="Ihre Telefonnummer" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+                <input type="number" name="Anzahl_Personen" placeholder="Anzahl Personen" min="1" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+              </div>
+
+              {/* Hàng 3: Ngày và Giờ */}
+              <div className="flex flex-col md:flex-row gap-6">
+                <input type="date" name="Datum" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+                <input type="time" name="Uhrzeit" required className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition" />
+              </div>
+
+              {/* Hàng 4: Tin nhắn/Ghi chú */}
+              <textarea name="Nachricht" rows="4" placeholder="Besondere Wünsche oder Anmerkungen" className="w-full bg-[#1a1814] border-b-2 border-gray-600 p-3 text-white focus:outline-none focus:border-amber-500 transition"></textarea>
+              
+              {/* Nút Submit */}
+              <div className="text-center mt-4">
+                <button type="submit" 
+                  className="bg-amber-500 text-black font-bold text-lg py-4 px-10 rounded-full 
+                  hover:bg-amber-600 hover:scale-105 transform transition-all duration-300
+                  shadow-lg shadow-amber-500/30 hover:shadow-xl hover:shadow-amber-500/50"
+                >
+                  Tisch Reservieren
+                </button>
               </div>
             </form>
           </div>

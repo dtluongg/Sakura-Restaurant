@@ -127,7 +127,7 @@ export const galleryData = {
 // footer Data:
 export const footerData = {
   usefulLinks: [
-    { title: "Home", href: "#hero" },
+    { title: "Startseite", href: "#" },
     { title: "Über uns", href: "#about" }, // "Về chúng tôi"
     { title: "Speisekarte", href: "#menu" }, // "Thực đơn"
     { title: "AGB", href: "#" }, // "Điều khoản dịch vụ"
