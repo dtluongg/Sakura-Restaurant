@@ -144,5 +144,5 @@ export const footerData = {
     description: "Abonnieren Sie unseren Newsletter für die neuesten Nachrichten und Angebote!", // "Đăng ký nhận bản tin của chúng tôi để cập nhật tin tức và ưu đãi mới nhất!"
   },
   copyright: `© Copyright ${new Date().getFullYear()} Sakura Restaurant. All Rights Reserved`,
-  credits: "Designed by BootstrapMade",
+  credits: "Designed by BootstrapMade, DTL & Gemini",
 };
