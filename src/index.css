@@ -2,3 +2,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+@theme {
+/* Màu nền & Bề mặt */
+  --color-background: #000000;      /* Đen tuyền */
+  --color-surface: #1a1814;        /* Màu nền tối cho các card (hơi ngả nâu) */
+  --color-border: #44403c;         /* Màu viền (Nâu xám) */
+
+  /* Màu nhấn chính - Đỏ Sơn Mài */
+  --color-primary: #dc2626;         /* Đỏ son (Vermilion) */
+  
+  /* Màu nhấn phụ - Vàng Kim */
+  --color-secondary: #ca8a04;       /* Vàng kim (Gold) */
+
+  /* Màu chữ */
+  --color-text-main: #e5e7eb;      /* Trắng phấn (Chalk) */
+  --color-text-light: #a8a29e;     /* Xám khói (Smoky Gray) */
+}

@@ -20,7 +20,7 @@ function App() {
         <AboutUs />
         <Menu />  
         <Specials />
-        <Events />
+        {/* <Events /> */}
         <Gallery />
         <Contact />
         <Footer />

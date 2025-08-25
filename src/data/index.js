@@ -10,14 +10,13 @@ export const contactData = {
 };
 
 export const navLinks = [
-    { id: 'home', title: 'Home' },
-    { id: 'about', title: 'About' },
-    { id: 'menu', title: 'Menu' },
-    { id: 'specials', title: 'Specials' },
-    { id: 'events', title: 'Events' },
-    { id: 'chefs', title: 'Chefs' },
-    { id: 'gallery', title: 'Gallery' },
-    { id: 'contact', title: 'Contact' },
+    { id: 'home', title: 'Startseite', to: 'hero' },
+    { id: 'about', title: 'Über Uns', to: 'about' },
+    { id: 'menu', title: 'Speisekarte', to: 'menu' },
+    { id: 'specials', title: 'Sonderangebote', to: 'specials' },
+    // { id: 'events', title: 'Veranstaltungen', to: 'events' },
+    { id: 'gallery', title: 'Galerie', to: 'gallery' },
+    { id: 'contact', title: 'Kontakt', to: 'contact' },
 ];
 
 // hero data
@@ -40,15 +39,19 @@ export const aboutData = {
 };
 
 // Dữ liệu cho section "Why Choose Us"
+import whyUsImage1 from '../assets/whyUs/whyUs-1.jpg';
+import whyUsImage2 from '../assets/whyUs/whyUs-2.jpg';
+import whyUsImage3 from '../assets/whyUs/whyUs-3.jpg';
+
 export const whyUsData = {
-      superTitle: "UNSERE PHILOSOPHIE", // "TRIẾT LÝ CỦA CHÚNG TÔI"
-      title: "Was Uns Besonders Macht", // "Điều Gì Làm Nên Sự Đặc Biệt"
-      cards: [
-        { number: "01", title: "Frische & Qualität", description: "Wir verwenden nur die besten und frischesten Zutaten für unsere Gerichte." }, // "Tươi ngon & Chất lượng"
-        { number: "02", title: "Authentizität", description: "Erleben Sie den echten Geschmack Japans durch unsere traditionell zubereiteten Speisen." }, // "Tính xác thực"
-        { number: "03", title: "Gastfreundschaft", description: "Fühlen Sie sich bei uns wie zu Hause. Ihre Zufriedenheit ist unser höchstes Ziel." }, // "Lòng hiếu khách"
-      ]
-  };
+  superTitle: "UNSERE PHILOSOPHIE", // "TRIẾT LÝ CỦA CHÚNG TÔI"
+  title: "Was Uns Besonders Macht", // "Điều Gì Làm Nên Sự Đặc Biệt"
+  cards: [
+    { number: "01", title: "Frische & Qualität", description: "Wir verwenden nur die besten und frischesten Zutaten für unsere Gerichte.", image: whyUsImage1 }, // "Tươi ngon & Chất lượng"
+    { number: "02", title: "Authentizität", description: "Erleben Sie den echten Geschmack Japans durch unsere traditionell zubereiteten Speisen.", image: whyUsImage2 }, // "Tính xác thực"
+    { number: "03", title: "Gastfreundschaft", description: "Fühlen Sie sich bei uns wie zu Hause. Ihre Zufriedenheit ist unser höchstes Ziel.", image: whyUsImage3 }, // "Lòng hiếu khách"
+  ]
+};
 
 // Menu Data:
 // import image món ăn
@@ -79,8 +82,6 @@ export const menuData = {
 import specialDish1 from '../assets/specials/special-1.jpg';
 import specialDish2 from '../assets/specials/special-2.jpg';
 import specialDish3 from '../assets/specials/special-3.jpg';
-import specialDish4 from '../assets/specials/special-4.jpg';
-import specialDish5 from '../assets/specials/special-5.jpg';
 export const specialsData = {
   superTitle: "SPECIALS",
   title: "Check Our Specials",
