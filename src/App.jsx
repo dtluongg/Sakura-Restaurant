@@ -7,6 +7,7 @@ import Header from "./components/Header.jsx"
 import Hero from "./components/Hero.jsx"
 import Menu from "./components/Menu.jsx"
 import Specials from "./components/Specials.jsx"
+import InteractiveMenu from "./test/InteractiveMenu.jsx"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <AboutUs />
         <Menu />  
+        {/* <InteractiveMenu /> */}
         <Specials />
         {/* <Events /> */}
         <Gallery />
