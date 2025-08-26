@@ -41,6 +41,8 @@ import image47 from '../assets/menu/47.jpg';
 import image48 from '../assets/menu/48.jpg';
 import image49A from '../assets/menu/49.jpg';
 import image49B from '../assets/menu/49B.jpg';
+import image50_55 from '../assets/menu/50_55.jpg';
+import image61_76 from '../assets/menu/61_76.jpg';
 import image80 from '../assets/menu/80.jpg';
 import image81 from '../assets/menu/81.jpg';
 import image82 from '../assets/menu/82.jpg';
@@ -285,33 +287,33 @@ filters: [
         {
           "name": "Temaki (2 Stück)",
           "items": [
-            { "id": "050", "image": Sushi, "name": "California Temaki", "description": "mit Kani Kama und Avocado", "price": "6,60 €" },
-            { "id": "051", "image": Sushi, "name": "Sake-Avocado Temaki", "description": "mit Lachs und Avocado", "price": "7,00 €" },
-            { "id": "052", "image": Sushi, "name": "Ebi Avocado Temaki", "description": "mit Großgarnele und Avocado", "price": "7,40 €" },
-            { "id": "053", "image": Sushi, "name": "Maguro Kimchi Temaki", "description": "mit Thunfisch und Kimchi Soße (scharf)", "price": "7,90 €" },
-            { "id": "054", "image": Sushi, "name": "Unagi Temaki", "description": "mit Unagi und Avocado", "price": "8,10 €" },
-            { "id": "055", "image": Sushi, "name": "Salmon Skin Temaki", "description": "mit Lachshaut und Avocado", "price": "6,50 €" }
+            { "id": "050", "image": image50_55, "name": "California Temaki", "description": "mit Kani Kama und Avocado", "price": "6,60 €" },
+            { "id": "051", "image": image50_55, "name": "Sake-Avocado Temaki", "description": "mit Lachs und Avocado", "price": "7,00 €" },
+            { "id": "052", "image": image50_55, "name": "Ebi Avocado Temaki", "description": "mit Großgarnele und Avocado", "price": "7,40 €" },
+            { "id": "053", "image": image50_55, "name": "Maguro Kimchi Temaki", "description": "mit Thunfisch und Kimchi Soße (scharf)", "price": "7,90 €" },
+            { "id": "054", "image": image50_55, "name": "Unagi Temaki", "description": "mit Unagi und Avocado", "price": "8,10 €" },
+            { "id": "055", "image": image50_55, "name": "Salmon Skin Temaki", "description": "mit Lachshaut und Avocado", "price": "6,50 €" }
           ]
         },
         {
           "name": "Nori Maki (12 Stück)",
           "items": [
-            { "id": "061", "image": Sushi, "name": "Kappa Maki", "description": "mit Gurken", "price": "5,90 €" },
-            { "id": "062", "image": Sushi, "name": "Osinko Maki", "description": "mit eingelegtem Rettich", "price": "5,90 €" },
-            { "id": "063", "image": Sushi, "name": "Avocado Maki", "description": "mit Avocado", "price": "6,90 €" },
-            { "id": "064", "image": Sushi, "name": "Kanpyo Maki", "description": "mit Kürbisstreifen", "price": "5,90 €" },
-            { "id": "065", "image": Sushi, "name": "Shitake Maki", "description": "mit jap. Eingelegten Pilzen", "price": "5,90 €" },
-            { "id": "066", "image": Sushi, "name": "Tekka Maki", "description": "mit Thunfisch", "price": "7,50 €" },
-            { "id": "067", "image": Sushi, "name": "Sake Maki", "description": "mit Lachs", "price": "7,40 €" },
-            { "id": "068", "image": Sushi, "name": "Ebi Maki", "description": "mit Garnele", "price": "7,40 €" },
-            { "id": "069", "image": Sushi, "name": "Kani Maki", "description": "mit Krebsfleischimitat", "price": "6,60 €" },
-            { "id": "070", "image": Sushi, "name": "Unagi Maki", "description": "mit Aal", "price": "7,70 €" },
-            { "id": "071", "image": Sushi, "name": "Tamago Maki", "description": "Mit jap. Eierkuchen", "price": "6,60 €" },
-            { "id": "072", "image": Sushi, "name": "Sake Avocado Maki", "description": "mit Lachs und Avocado", "price": "7,40 €" },
-            { "id": "073", "image": Sushi, "name": "California Maki", "description": "mit Kani Kama und Avocado", "price": "7,00 €" },
-            { "id": "074", "image": Sushi, "name": "Salmon Skin Maki", "description": "mit gegrillter Lachshaut und Avocado", "price": "7,20 €" },
-            { "id": "075", "image": Sushi, "name": "Futo Maki (8St.)", "description": "große Rolle mit verschiedenen Füllungen", "price": "9,90 €" },
-            { "id": "076", "image": Sushi, "name": "Ebi Ten Maki (8St.)", "description": "mit gebackenen Großgarnelen und Avocado", "price": "10,90 €" }
+            { "id": "061", "image": image61_76, "name": "Kappa Maki", "description": "mit Gurken", "price": "5,90 €" },
+            { "id": "062", "image": image61_76, "name": "Osinko Maki", "description": "mit eingelegtem Rettich", "price": "5,90 €" },
+            { "id": "063", "image": image61_76, "name": "Avocado Maki", "description": "mit Avocado", "price": "6,90 €" },
+            { "id": "064", "image": image61_76, "name": "Kanpyo Maki", "description": "mit Kürbisstreifen", "price": "5,90 €" },
+            { "id": "065", "image": image61_76, "name": "Shitake Maki", "description": "mit jap. Eingelegten Pilzen", "price": "5,90 €" },
+            { "id": "066", "image": image61_76, "name": "Tekka Maki", "description": "mit Thunfisch", "price": "7,50 €" },
+            { "id": "067", "image": image61_76, "name": "Sake Maki", "description": "mit Lachs", "price": "7,40 €" },
+            { "id": "068", "image": image61_76, "name": "Ebi Maki", "description": "mit Garnele", "price": "7,40 €" },
+            { "id": "069", "image": image61_76, "name": "Kani Maki", "description": "mit Krebsfleischimitat", "price": "6,60 €" },
+            { "id": "070", "image": image61_76, "name": "Unagi Maki", "description": "mit Aal", "price": "7,70 €" },
+            { "id": "071", "image": image61_76, "name": "Tamago Maki", "description": "Mit jap. Eierkuchen", "price": "6,60 €" },
+            { "id": "072", "image": image61_76, "name": "Sake Avocado Maki", "description": "mit Lachs und Avocado", "price": "7,40 €" },
+            { "id": "073", "image": image61_76, "name": "California Maki", "description": "mit Kani Kama und Avocado", "price": "7,00 €" },
+            { "id": "074", "image": image61_76, "name": "Salmon Skin Maki", "description": "mit gegrillter Lachshaut und Avocado", "price": "7,20 €" },
+            { "id": "075", "image": image61_76, "name": "Futo Maki (8St.)", "description": "große Rolle mit verschiedenen Füllungen", "price": "9,90 €" },
+            { "id": "076", "image": image61_76, "name": "Ebi Ten Maki (8St.)", "description": "mit gebackenen Großgarnelen und Avocado", "price": "10,90 €" }
           ]
         },
         {
