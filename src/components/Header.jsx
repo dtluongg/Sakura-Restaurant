@@ -78,7 +78,7 @@ const Header = () => {
       </div>
 
       {/* Main Navigation */}
-      <div className={`container mx-auto px-4 flex justify-between items-center text-text-main transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
+      <div className={`container mx-auto px-4 flex justify-between items-center text-text-main transition-all duration-300 ${isScrolled ? 'py-2 mb-4' : 'py-4'}`}>
         <a href="#hero" className="flex items-center gap-3">
           <img src={logo} alt="Sakura Restaurant Logo" className="h-16 w-auto rounded-full" />
           <span className="hidden sm:block text-2xl font-bold tracking-wider">
@@ -104,8 +104,8 @@ const Header = () => {
           </ul>
         </nav>
 
-        <a href="#booking" className="border-2 border-pritext-primary text-primary font-bold rounded-full px-6 py-2 
-                       hover:bg-primary hover:text-white transition duration-300 hidden md:block">
+        <a href="#booking" className="border-2 border-pritext-primary text-white md:text-primary bg-primary md:bg-black font-bold rounded-full px-6 py-2 
+                       hover:bg-primary hover:text-white transition duration-300">
           TISCH RESERVIEREN
         </a>
       </div>

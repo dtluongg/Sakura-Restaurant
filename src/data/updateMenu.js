@@ -153,6 +153,7 @@ filters: [
       "Sushi - Tempura Rolle"
     ]
   },
+  { name: "Mittagsmenü", subcategories: ["All", "Mittagsmenü"] },
   {
     name: "Warme Gerichte",
     subcategories: [
@@ -407,6 +408,27 @@ filters: [
             { "id": "182", "image": image182_184, "name": "Mini Sake Tempura Rolle (8 St.)", "description": "mit Lachs, Lauch und Mayonnaise", "price": "5,50 €" },
             { "id": "183", "image": image182_184, "name": "Mini Thuna Tempura Rolle (8 St.)", "description": "mit gekochtem Thunfisch, Lauch und scharf", "price": "5,50 €" },
             { "id": "184", "image": image182_184, "name": "Mini Buddha Tempura Rolle (8 St.)", "description": "mit Mozzarella, Basilikum", "price": "4,70 €" }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryImage":Salate,
+      "category": "Mittagsmenü",
+      "subcategories": [
+        {
+          "name": "Mittagsmenü",
+          "items": [
+            { "id": "01", "image": image01, "name": "Menü A", "description": "Sake Maki, Sake Butterfisch, und Kani Kama\" und Tamago Nigiri", "price": "11,40 €" },
+            { "id": "02", "image": image02, "name": "Menü B", "description": "Sake Maki, Avocado Maki, Sake, Maguro und Ebi Nigiri", "price": "12,40 €" },
+            { "id": "03", "image": image03, "name": "Menü C", "description": "4 St.Ura Maki Kaviar mit Lachs, Sake, Maguro, Ebi und Kani Kama\" Nigiri", "price": "12,40 €" },
+            { "id": "04", "image": image04, "name": "Menü D", "description": "4 St.Ura Maki Kaviar, 4 St. Ura Maki Sesam, Ebi, Sake und Maguro Nigiri", "price": "12,40 €" },
+            { "id": "05", "image": image05, "name": "Menü E", "description": "4 St. Sake Ura Maki, Sake Avocado Maki, 2 St. Sake und 2 St. Maguro Nigiri", "price": "18,00 €" },
+            { "id": "06", "image": image06, "name": "Menü F", "description": "Vegan Green Rice Ura Maki, Avocado Maki und Kappa Maki.", "price": "13,20 €" },
+            { "id": "07", "image": image07, "name": "Menü G", "description": "4 St. Sake Ura Ten Maki, 4 St. Unagi Ten Ura Maki", "price": "13,00 €" },
+            { "id": "08", "image": image08, "name": "Menü H", "description": "4 St. New York Rolle, 4 St. Ura Maki Kaviar Sake, Butterfisch und Maguro Nigiri", "price": "15,40 €" },
+            { "id": "09", "image": image09, "name": "Menü I für 2 Personen", "description": "California Maki, Ura Maki Kaviar, Sake Ura Maki, Unagi Ura Sesam, 2 Sake, 2 Ebi und 2 Maguro Nigiri", "price": "39,20 €" },
+            { "id": "10", "image": image10, "name": "Menü J", "description": "Sake und Maguro Sashimi frischer Lachs und Thunfisch in Scheinben (10.St)", "price": "20,90 €" }
           ]
         }
       ]
