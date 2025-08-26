@@ -148,9 +148,9 @@ export const menuData = {
     { id: 136, image: null, name: "136 Schweine Bowl", description: "Gebratener Schweinenacken mit frischem Salat, Kimchi, eingelegtem Seetang, Edamame, Avocado und Reis", price: "13,50 €", category: "Menü des Hauses" },
     { id: 137, image: null, name: "137 Chirashi Sushi", description: "verschiedene frische Fischscheiben auf Sushi-Reis, dazu Miso Suppe", price: "19,40 €", category: "Menü des Hauses" },
     { id: 138, image: null, name: "138 Sake Sashimi", description: "frischer Lachs in Scheiben (10 St.)", price: "19,70 €", category: "Sashimi" },
-    { id: 139, image: null, name: "139 Maguro Sashimi", description: "frischer Thunfisch in Scheiben (10 St.)", price: "20,40 €", category: "Sashimi" },
+    { id: 139, image: null, name: "139 Maguro Sasdfasdfasdfsadashimi", description: "frischer Thunfisch in Scheiben (10 St.)", price: "20,40 €", category: "Sashimi" },
     { id: 140, image: null, name: "140 Sashimi Komori", description: "kleine Portion verschiedener Fisch in Scheiben", price: "22,40 €", category: "Sashimi" },
-    { id: 141, image: null, name: "141 Sashimi Moriawase", description: "verschiedener Fisch in Scheiben", price: "26,40 €", category: "Sashimi" },
+    { id: 141, image: null, name: "141 Sashimi Moriawase", descripsadfasdftion: "verschiedener Fisch in Scheiben", price: "26,40 €", category: "Sashimi" },
 
     // PAGE 12 & 13 & 14: SAKURA KOMBINATION MENÜ
     { id: 142, image: null, name: "142", description: "Mini Tempura Rolle (mit Lachs) (8 St.) Sake, Maguro, Kani Kama und Butterfisch Nigiri", price: "11,30 €", category: "Kombination Menü" },

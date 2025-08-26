@@ -10,6 +10,7 @@ import Desserts from '../assets/menu/desserts/dessert.jpg'
 import Extras from '../assets/menu/extras/extras.jpg'
 import Getranke from '../assets/menu/getranke/getranke.jpg'
 import Warme_gerichte from '../assets/menu/warme_gerichte/warme_gerichte.jpg'
+import Onigiri from '../assets/menu/onigiri/onigiri.jpg'
 
 import image01 from '../assets/menu/01.jpg';
 import image02 from '../assets/menu/02.jpg';
@@ -166,6 +167,7 @@ filters: [
     ]
   },
   { name: "Desserts", subcategories: ["All", "Desserts"] },
+  { name: "Onigiri", subcategories: ["All", "Onigiri (2 Stück)"] },
   { name: "Extras", subcategories: ["All", "Extras"] },
   {
     name: "Getränke",
@@ -334,16 +336,26 @@ filters: [
         {
           "name": "Sakura Spezial Rollen",
           "items": [
-            { "id": "090", "image": image90_91, "name": "Sake Ura Maki", "description": "Ura In-Out Rolle mit Lachs, Avocado und Kaviar (d,o)", "price": { "4 St.": "6,90 €", "8 St.": "13,40 €" } },
-            { "id": "092", "image": image92_93, "name": "Sake Ten Ura Maki", "description": "mit gebackener Garnele, außen mit Kaviar und Lachs (a,b,d,f,o)", "price": { "4 St.": "8,00 €", "8 St.": "14,90 €" } },
-            { "id": "094", "image": image94_95, "name": "Ebi Ten Ura Maki", "description": "mit gebackener Garnele und Avocado, Gurken und frischkäse, außen mit Kaviar und Sesam (a,b,f,k,o)", "price": { "4 St.": "6,80 €", "8 St.": "12,90 €" } },
-            { "id": "096", "image": image96_97, "name": "Tori Maki", "description": "Seetangrolle mit gegrilltem Hühnerfleisch, Gurken und Röstzwiebeln (c,f)", "price": { "4 St.": "5,20 €", "8 St.": "9,50 €" } },
-            { "id": "098", "image": image98_99, "name": "Midori Rolle", "description": "Rolle mit Thunfisch, Süße Chili-Soße, Lauch, Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "4 St.": "6,20 €", "8 St.": "10,20 €" } },
-            { "id": "100", "image": image100_101, "name": "Big Green Roll", "description": "Rolle mit Lachs, Unagi, Avocado und Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "4 St.": "6,90 €", "8 St.": "11,50 €" } },
-            { "id": "102", "image": image102_103, "name": "Seattle Roll", "description": "Rolle mit Lachs, Unagi, Avocado, Gurken und Frischkäse, außen Sesam (a,b,k,o)", "price": { "4 St.": "6,50 €", "8 St.": "10,50 €" } },
-            { "id": "104", "image": image104_105, "name": "King Las Vegas Roll", "description": "Rolle mit Lachs, Frischkäse, gebackener Großgamele, Gurken, außen gelbes Tobiko", "price": { "4 St.": "9,50 €", "8 St.": "16,50 €" } },
-            { "id": "106", "image": image106_107, "name": "Philadelphia Rolle", "description": "Seetangrolle mit Lachs, Gurken, Lauch und Frischkäse (f,g,k)", "price": { "4 St.": "5,90 €", "8 St.": "10,20 €" } },
-            { "id": "108", "image": image108_109, "name": "Unagi Ten Ura Maki", "description": "umgedrehte Rolle mit gebackener Garnele und Avocado, außen mit Kaviar und Aal (a,b,o)", "price": { "4 St.": "8,50 €", "8 St.": "14,90 €" } },
+            { "id": "090", "image": image90_91, "name": "Sake Ura Maki", "description": "Ura In-Out Rolle mit Lachs, Avocado und Kaviar (d,o)", "price": { "4 St.": "6,90 €"} },
+            { "id": "091", "image": image90_91, "name": "Sake Ura Maki", "description": "Ura In-Out Rolle mit Lachs, Avocado und Kaviar (d,o)", "price": { "8 St.": "13,40 €" } },
+            { "id": "092", "image": image92_93, "name": "Sake Ten Ura Maki", "description": "mit gebackener Garnele, außen mit Kaviar und Lachs (a,b,d,f,o)", "price": { "4 St.": "8,00 €"} },
+            { "id": "093", "image": image92_93, "name": "Sake Ten Ura Maki", "description": "mit gebackener Garnele, außen mit Kaviar und Lachs (a,b,d,f,o)", "price": { "8 St.": "14,90 €" } },
+            { "id": "094", "image": image94_95, "name": "Ebi Ten Ura Maki", "description": "mit gebackener Garnele und Avocado, Gurken und frischkäse, außen mit Kaviar und Sesam (a,b,f,k,o)", "price": { "4 St.": "6,80 €"} },
+            { "id": "095", "image": image94_95, "name": "Ebi Ten Ura Maki", "description": "mit gebackener Garnele und Avocado, Gurken und frischkäse, außen mit Kaviar und Sesam (a,b,f,k,o)", "price": { "8 St.": "12,90 €" } },
+            { "id": "096", "image": image96_97, "name": "Tori Maki", "description": "Seetangrolle mit gegrilltem Hühnerfleisch, Gurken und Röstzwiebeln (c,f)", "price": { "4 St.": "5,20 €" } },
+            { "id": "097", "image": image96_97, "name": "Tori Maki", "description": "Seetangrolle mit gegrilltem Hühnerfleisch, Gurken und Röstzwiebeln (c,f)", "price": { "8 St.": "9,50 €" } },
+            { "id": "098", "image": image98_99, "name": "Midori Rolle", "description": "Rolle mit Thunfisch, Süße Chili-Soße, Lauch, Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "4 St.": "6,20 €" } },
+            { "id": "099", "image": image98_99, "name": "Midori Rolle", "description": "Rolle mit Thunfisch, Süße Chili-Soße, Lauch, Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "8 St.": "10,20 €" } },
+            { "id": "100", "image": image100_101, "name": "Big Green Roll", "description": "Rolle mit Lachs, Unagi, Avocado und Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "4 St.": "6,90 €"} },
+            { "id": "101", "image": image100_101, "name": "Big Green Roll", "description": "Rolle mit Lachs, Unagi, Avocado und Gurken, außen mit Wasabi Kaviar (d,f,k,o)", "price": { "8 St.": "11,50 €" } },
+            { "id": "102", "image": image102_103, "name": "Seattle Roll", "description": "Rolle mit Lachs, Unagi, Avocado, Gurken und Frischkäse, außen Sesam (a,b,k,o)", "price": { "4 St.": "6,50 €"} },
+            { "id": "103", "image": image102_103, "name": "Seattle Roll", "description": "Rolle mit Lachs, Unagi, Avocado, Gurken und Frischkäse, außen Sesam (a,b,k,o)", "price": { "8 St.": "10,50 €" } },
+            { "id": "104", "image": image104_105, "name": "King Las Vegas Roll", "description": "Rolle mit Lachs, Frischkäse, gebackener Großgamele, Gurken, außen gelbes Tobiko", "price": { "4 St.": "9,50 €" } },
+            { "id": "105", "image": image104_105, "name": "King Las Vegas Roll", "description": "Rolle mit Lachs, Frischkäse, gebackener Großgamele, Gurken, außen gelbes Tobiko", "price": { "8 St.": "16,50 €" } },
+            { "id": "106", "image": image106_107, "name": "Philadelphia Rolle", "description": "Seetangrolle mit Lachs, Gurken, Lauch und Frischkäse (f,g,k)", "price": { "4 St.": "5,90 €" } },
+            { "id": "107", "image": image106_107, "name": "Philadelphia Rolle", "description": "Seetangrolle mit Lachs, Gurken, Lauch und Frischkäse (f,g,k)", "price": { "8 St.": "10,20 €" } },
+            { "id": "108", "image": image108_109, "name": "Unagi Ten Ura Maki", "description": "umgedrehte Rolle mit gebackener Garnele und Avocado, außen mit Kaviar und Aal (a,b,o)", "price": { "4 St.": "8,50 €"} },
+            { "id": "109", "image": image108_109, "name": "Unagi Ten Ura Maki", "description": "umgedrehte Rolle mit gebackener Garnele und Avocado, außen mit Kaviar und Aal (a,b,o)", "price": { "8 St.": "14,90 €" } },
             { "id": "110", "image": image110, "name": "Avo Ura Maki", "description": "Ura In-Out Rolle mit Gurken, Avocado und Sesam (k)", "price": "9,50 €" },
             { "id": "111", "image": image111, "name": "Avo Ura Ten Maki", "description": "mit gebackener Garnele und Avocado, Gurken und frischkäse, außen mit Kaviar und Avocado (a,b,k,o)", "price": "11,90 €" },
             { "id": "112", "image": image112, "name": "Green Rice Ura Maki", "description": "mit gekochtem Lachs, Chili, Lauchzwiebeln und Mayonnaise, umhüllt mit einer knusprigen Panade (d,f,o)", "price": "9,10 €" },
@@ -353,9 +365,12 @@ filters: [
             { "id": "116", "image": image116, "name": "Mango Ura Maki", "description": "mit gekochtem Lachs, Frischkäse, Avocado Umhüllt mit einer Mango-Mantel (d,f,g,o)", "price": "9,90 €" },
             { "id": "117", "image": image117, "name": "Mango Ura Ten Maki", "description": "Kaviar und Frischkäse, Avocado, grünem Spargel Umhüllt mit einer Mango-Mantel mit gebackener Garnele, (a,b,d,f,g,o)", "price": "11,90 €" },
             { "id": "118", "image": image118, "name": "Maguro Ura Maki", "description": "Umhüllt mit Thunfisch, Kaviar und Frischkäse, grünem Spargel (d,f,g,o)", "price": "11,90 €" },
-            { "id": "119", "image": image119_120, "name": "Ura Kani Maki", "description": "Mit Kani Tempura, Avocado, Gurken, Mayonnaise außen Kaviar und Spezial Soße (11,a,d,f,o)", "price": { "4 St.": "5,50 €", "8 St.": "9,70 €" } },
-            { "id": "121", "image": image121_122, "name": "Ura Kamo Maki", "description": "Ura In-Out Rolle mit Ente Avocado und Kaviar (c,f,o)", "price": { "4 St.": "5,90 €", "8 St.": "9,70 €" } },
-            { "id": "123", "image": image123_124, "name": "Maguro Ura Spezial", "description": "Ura Maki mit Maguro, Chili Soße und grünem Spargel (d,f,o)", "price": { "4 St.": "6,60 €", "8 St.": "10,70 €" } },
+            { "id": "119", "image": image119_120, "name": "Ura Kani Maki", "description": "Mit Kani Tempura, Avocado, Gurken, Mayonnaise außen Kaviar und Spezial Soße (11,a,d,f,o)", "price": { "4 St.": "5,50 €"} },
+            { "id": "120", "image": image119_120, "name": "Ura Kani Maki", "description": "Mit Kani Tempura, Avocado, Gurken, Mayonnaise außen Kaviar und Spezial Soße (11,a,d,f,o)", "price": { "8 St.": "9,70 €" } },
+            { "id": "121", "image": image121_122, "name": "Ura Kamo Maki", "description": "Ura In-Out Rolle mit Ente Avocado und Kaviar (c,f,o)", "price": { "4 St.": "5,90 €" } },
+            { "id": "122", "image": image121_122, "name": "Ura Kamo Maki", "description": "Ura In-Out Rolle mit Ente Avocado und Kaviar (c,f,o)", "price": { "8 St.": "9,70 €" } },
+            { "id": "123", "image": image123_124, "name": "Maguro Ura Spezial", "description": "Ura Maki mit Maguro, Chili Soße und grünem Spargel (d,f,o)", "price": { "4 St.": "6,60 €"} },
+            { "id": "124", "image": image123_124, "name": "Maguro Ura Spezial", "description": "Ura Maki mit Maguro, Chili Soße und grünem Spargel (d,f,o)", "price": { "8 St.": "10,70 €" } },
             { "id": "125", "image": image125, "name": "Ura Salmon Skin Maki", "description": "mit gegrillter Lachshaut, Mozzarella und Avocado (d,g,o)", "price": "7,50 €" },
             { "id": "126", "image": image126, "name": "Ura Tori Maki", "description": "mit gegrilltem Hühnerfleisch grünem Spargel (c,f,o)", "price": "9,10 €" }
           ]
@@ -401,12 +416,18 @@ filters: [
         {
           "name": "Sushi - Tempura Rolle",
           "items": [
-            { "id": "170", "image": image170_181, "name": "Alaska Tempura Roll", "description": "Rolle mit Lachs Avocado, Gurken, Aal, mit Käse gebacken", "price": { "5 St.": "7,50 €", "10 St.": "12,80 €" } },
-            { "id": "172", "image": image170_181, "name": "Xenia Roll (Mittel scharf)", "description": "panierte Rolle mit Krebsfleisch, Chili, Lauch, Gurken und Mayonnaise", "price": { "5 St.": "7,50 €", "10 St.": "12,80 €" } },
-            { "id": "174", "image": image170_181, "name": "Buddha Roll Vegetarische", "description": "panierte Rolle mit Gurken, Avocado, Kürbis, Sesam und Mozzarella", "price": { "5 St.": "6,00 €", "10 St.": "10,80 €" } },
-            { "id": "176", "image": image170_181, "name": "Chicago Roll", "description": "panierte Rolle mit Surimi, Gurken, Avocado, Flugfischrogen, Spezial-Sauce", "price": { "5 St.": "7,10 €", "10 St.": "11,80 €" } },
-            { "id": "178", "image": image170_181, "name": "New York Roll (Mittel scharf)", "description": "panierte Rolle mit Butterfisch, Chili, Lauch, Gurken, Spezial-Sauce", "price": { "5 St.": "7,10 €", "10 St.": "11,80 €" } },
-            { "id": "180", "image": image170_181, "name": "Spicy Tuna Tempura Rolle (scharf)", "description": "mit gekochtem Thunfisch, Mayonnaise, Chili, Lauch", "price": { "5 St.": "7,50 €", "10 St.": "12,80 €" } },
+            { "id": "170", "image": image170_181, "name": "Alaska Tempura Roll", "description": "Rolle mit Lachs Avocado, Gurken, Aal, mit Käse gebacken", "price": { "5 St.": "7,50 €"} },
+            { "id": "171", "image": image170_181, "name": "Alaska Tempura Roll", "description": "Rolle mit Lachs Avocado, Gurken, Aal, mit Käse gebacken", "price": { "10 St.": "12,80 €" } },
+            { "id": "172", "image": image170_181, "name": "Xenia Roll (Mittel scharf)", "description": "panierte Rolle mit Krebsfleisch, Chili, Lauch, Gurken und Mayonnaise", "price": { "5 St.": "7,50 €" } },
+            { "id": "173", "image": image170_181, "name": "Xenia Roll (Mittel scharf)", "description": "panierte Rolle mit Krebsfleisch, Chili, Lauch, Gurken und Mayonnaise", "price": { "10 St.": "12,80 €" } },
+            { "id": "174", "image": image170_181, "name": "Buddha Roll Vegetarische", "description": "panierte Rolle mit Gurken, Avocado, Kürbis, Sesam und Mozzarella", "price": { "5 St.": "6,00 €" } },
+            { "id": "175", "image": image170_181, "name": "Buddha Roll Vegetarische", "description": "panierte Rolle mit Gurken, Avocado, Kürbis, Sesam und Mozzarella", "price": { "10 St.": "10,80 €" } },
+            { "id": "176", "image": image170_181, "name": "Chicago Roll", "description": "panierte Rolle mit Surimi, Gurken, Avocado, Flugfischrogen, Spezial-Sauce", "price": { "5 St.": "7,10 €"} },
+            { "id": "177", "image": image170_181, "name": "Chicago Roll", "description": "panierte Rolle mit Surimi, Gurken, Avocado, Flugfischrogen, Spezial-Sauce", "price": { "10 St.": "11,80 €" } },
+            { "id": "178", "image": image170_181, "name": "New York Roll (Mittel scharf)", "description": "panierte Rolle mit Butterfisch, Chili, Lauch, Gurken, Spezial-Sauce", "price": { "5 St.": "7,10 €" } },
+            { "id": "179", "image": image170_181, "name": "New York Roll (Mittel scharf)", "description": "panierte Rolle mit Butterfisch, Chili, Lauch, Gurken, Spezial-Sauce", "price": { "10 St.": "11,80 €" } },
+            { "id": "180", "image": image170_181, "name": "Spicy Tuna Tempura Rolle (scharf)", "description": "mit gekochtem Thunfisch, Mayonnaise, Chili, Lauch", "price": { "5 St.": "7,50 €"} },
+            { "id": "181", "image": image170_181, "name": "Spicy Tuna Tempura Rolle (scharf)", "description": "mit gekochtem Thunfisch, Mayonnaise, Chili, Lauch", "price": { "10 St.": "12,80 €" } },
             { "id": "182", "image": image182_184, "name": "Mini Sake Tempura Rolle (8 St.)", "description": "mit Lachs, Lauch und Mayonnaise", "price": "5,50 €" },
             { "id": "183", "image": image182_184, "name": "Mini Thuna Tempura Rolle (8 St.)", "description": "mit gekochtem Thunfisch, Lauch und scharf", "price": "5,50 €" },
             { "id": "184", "image": image182_184, "name": "Mini Buddha Tempura Rolle (8 St.)", "description": "mit Mozzarella, Basilikum", "price": "4,70 €" }
@@ -487,12 +508,12 @@ filters: [
             { "id": "206", "image": Warme_gerichte, "name": "Gebratener Lachs Chili", "description": "Gebratener Lachs mit asiat. Gemüse, Chili und Pfeffeschorten (sehr scharf)", "price": "15,10 €" },
             { "id": "207", "image": Warme_gerichte, "name": "Gebratener Lachs Mango", "description": "Gebratener Lachs auf Mango-Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika, Dill und Thai Basilikum.", "price": "15,50 €" },
             { "id": "208", "image": Warme_gerichte, "name": "Mango Ente (mild oder scharf)", "description": "Knusprig gebackene Ente auf Mango - Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika und Thai Basilikum.", "price": "15,20 €" },
-            { "id": "216a", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : Ente Kross", "description": "", "price": "14,40 €" },
-            { "id": "216b", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : Gebackener Hühnerfleisch", "description": "", "price": "12,60 €" },
-            { "id": "216c", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : Rindfleisch", "description": "", "price": "14,40 €" },
-            { "id": "216d", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : Gebratener Lachs", "description": "", "price": "15,10 €" },
-            { "id": "217a", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: Mit Reis", "description": "", "price": "14,70 €" },
-            { "id": "217b", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: Süßkartoffel- Pommes", "description": "", "price": "15,10 €" },
+            { "id": "216a", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "a. Ente Kross", "price": "14,40 €" },
+            { "id": "216b", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "b. Gebackener Hühnerfleisch", "price": "12,60 €" },
+            { "id": "216c", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "c. Rindfleisch", "price": "14,40 €" },
+            { "id": "216d", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "d. Gebratener Lachs", "price": "15,10 €" },
+            { "id": "217a", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "a. Mit Reis", "price": "14,70 €" },
+            { "id": "217b", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "b. Süßkartoffel- Pommes", "price": "15,10 €" },
             { "id": "218", "image": Warme_gerichte, "name": "Gegrilltes Hühnerbrustfilet mit gem.Salat,Reis und Teri Yaki Soße", "description": "", "price": "12,70 €" }
           ]
         }
@@ -509,6 +530,23 @@ filters: [
             { "id": "210", "image": Desserts, "name": "Daifuku Mochi", "description": "Jap. Reiskuchen mit Roten Bohnen Und Vanille Eis (g,o)", "price": "3,90 €" },
             { "id": "211", "image": Desserts, "name": "Gebackene Bananen", "description": "Mit Honig Und Vanille Eis (a,g,o)", "price": "4,10 €" },
             { "id": "211B", "image": Desserts, "name": "Jap. gemischter", "description": "Mochi Eis mit Obst (3 St)", "price": "6,00 €" }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryImage":Onigiri,
+      "category": "Onigiri",
+      "subcategories": [
+        {
+          "name": "Onigiri (2 Stück)",
+          "items": [
+            { "id": "350a", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit Lachstatar und Keta Kaviar", "price": "7,20 €" },
+            { "id": "350b", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit gekoch. Lachs und Teri yaki Soße", "price": "7,30 €" },
+            { "id": "350c", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit geb. Garnellen und Süßchili Soße", "price": "7,60 €" },
+            { "id": "350d", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit gekoch. Thunfisch und Lauchzwieben", "price": "7,40 €" },
+            { "id": "350e", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit Thunfisch und Kimchi Soße", "price": "7,50 €" },
+            { "id": "350f", "image": Onigiri, "name": "Onigiri (2 Stück)", "description": "Geformte Reiszubereitung in einer Seetanghülle mit verschiedenen Füllung: mit eingelegtem Gemüse und Sesam", "price": "7,00 €" }
           ]
         }
       ]
