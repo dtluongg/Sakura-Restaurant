@@ -117,6 +117,7 @@ import image165 from '../assets/menu/165.jpg';
 import image170_181 from '../assets/menu/170_181.jpg';
 import image182_184 from '../assets/menu/182_184.jpg';
 import image185_204 from '../assets/menu/185_204.jpg';
+import image206_216 from '../assets/menu/206_216.jpg';
 import image230 from '../assets/menu/230.jpg';
 import image231 from '../assets/menu/231.jpg';
 import image232 from '../assets/menu/232.jpg';
@@ -371,8 +372,8 @@ filters: [
             { "id": "122", "image": image121_122, "name": "Ura Kamo Maki", "description": "Ura In-Out Rolle mit Ente Avocado und Kaviar (c,f,o)", "price": { "8 St.": "9,70 €" } },
             { "id": "123", "image": image123_124, "name": "Maguro Ura Spezial", "description": "Ura Maki mit Maguro, Chili Soße und grünem Spargel (d,f,o)", "price": { "4 St.": "6,60 €"} },
             { "id": "124", "image": image123_124, "name": "Maguro Ura Spezial", "description": "Ura Maki mit Maguro, Chili Soße und grünem Spargel (d,f,o)", "price": { "8 St.": "10,70 €" } },
-            { "id": "125", "image": image125, "name": "Ura Salmon Skin Maki", "description": "mit gegrillter Lachshaut, Mozzarella und Avocado (d,g,o)", "price": "7,50 €" },
-            { "id": "126", "image": image126, "name": "Ura Tori Maki", "description": "mit gegrilltem Hühnerfleisch grünem Spargel (c,f,o)", "price": "9,10 €" }
+            { "id": "125", "image": image125, "name": "Ura Salmon Skin Maki", "description": "mit gegrillter Lachshaut, Mozzarella und Avocado (d,g,o)", "price": {"8 St.": "7,50 €"} },
+            { "id": "126", "image": image126, "name": "Ura Tori Maki", "description": "mit gegrilltem Hühnerfleisch grünem Spargel (c,f,o)", "price": {"8 St.": "9,10 €"} }
           ]
         },
         {
@@ -505,13 +506,13 @@ filters: [
           "name": "Spezial warmes Kűches",
           "items": [
             { "id": "205", "image": Warme_gerichte, "name": "Gebratener Lachs Curry", "description": "Gebratener Lachs in Scheiben mit asiat. Gemüse, rotem Curry und, Kokosmilch (mild oder scharf) mit Reis", "price": "15,10 €" },
-            { "id": "206", "image": Warme_gerichte, "name": "Gebratener Lachs Chili", "description": "Gebratener Lachs mit asiat. Gemüse, Chili und Pfeffeschorten (sehr scharf)", "price": "15,10 €" },
-            { "id": "207", "image": Warme_gerichte, "name": "Gebratener Lachs Mango", "description": "Gebratener Lachs auf Mango-Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika, Dill und Thai Basilikum.", "price": "15,50 €" },
-            { "id": "208", "image": Warme_gerichte, "name": "Mango Ente (mild oder scharf)", "description": "Knusprig gebackene Ente auf Mango - Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika und Thai Basilikum.", "price": "15,20 €" },
-            { "id": "216a", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "a. Ente Kross", "price": "14,40 €" },
-            { "id": "216b", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "b. Gebackener Hühnerfleisch", "price": "12,60 €" },
-            { "id": "216c", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "c. Rindfleisch", "price": "14,40 €" },
-            { "id": "216d", "image": Warme_gerichte, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "d. Gebratener Lachs", "price": "15,10 €" },
+            { "id": "206", "image": image206_216, "name": "Gebratener Lachs Chili", "description": "Gebratener Lachs mit asiat. Gemüse, Chili und Pfeffeschorten (sehr scharf)", "price": "15,10 €" },
+            { "id": "207", "image": image206_216, "name": "Gebratener Lachs Mango", "description": "Gebratener Lachs auf Mango-Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika, Dill und Thai Basilikum.", "price": "15,50 €" },
+            { "id": "208", "image": image206_216, "name": "Mango Ente (mild oder scharf)", "description": "Knusprig gebackene Ente auf Mango - Soße mit Kokosmilch, rotem Curry, frischen Mangostücken, Paprika und Thai Basilikum.", "price": "15,20 €" },
+            { "id": "216a", "image": image206_216, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "a. Ente Kross", "price": "14,40 €" },
+            { "id": "216b", "image": image206_216, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "b. Gebackener Hühnerfleisch", "price": "12,60 €" },
+            { "id": "216c", "image": image206_216, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "c. Rindfleisch", "price": "14,40 €" },
+            { "id": "216d", "image": image206_216, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "d. Gebratener Lachs", "price": "15,10 €" },
             { "id": "217a", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "a. Mit Reis", "price": "14,70 €" },
             { "id": "217b", "image": Warme_gerichte, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "b. Süßkartoffel- Pommes", "price": "15,10 €" },
             { "id": "218", "image": Warme_gerichte, "name": "Gegrilltes Hühnerbrustfilet mit gem.Salat,Reis und Teri Yaki Soße", "description": "", "price": "12,70 €" }
