@@ -5,9 +5,9 @@ import Footer from "./components/Footer.jsx"
 import Gallery from "./components/Gallery.jsx"
 import Header from "./components/Header.jsx"
 import Hero from "./components/Hero.jsx"
-import InteractiveMenu from "./components/InteractiveMenu.jsx"
 import Menu from "./components/Menu.jsx"
 import Specials from "./components/Specials.jsx"
+import InteractiveMenu from "./test/InteractiveMenu.jsx"
 
 function App() {
 
@@ -20,9 +20,9 @@ function App() {
         <Hero />
         <AboutUs />
         <Menu />  
-        <InteractiveMenu />
+        {/* <InteractiveMenu /> */}
         <Specials />
-        <Events />
+        {/* <Events /> */}
         <Gallery />
         <Contact />
         <Footer />
