@@ -31,12 +31,14 @@ const Contact = () => {
     // Áp dụng màu nền chính và màu chữ chính
     <section id="contact" className="bg-background text-text-main py-20">
       <div className="container mx-auto px-4">
+        <div className='mb-12'>
+            <div className="flex items-center">
+              <p className="text-text-light uppercase tracking-wider">RESERVIERUNG</p>
+              <span className="w-16 h-px bg-primary ml-4"></span>
+            </div>
+            <h2 className="text-4xl font-serif text-secondary mt-2">Buchen Sie einen Tisch</h2>
+          </div>
         {/* Tiêu đề */}
-        <div className="text-center mb-12">
-          <p className="text-text-light uppercase tracking-wider">RESERVIERUNG</p>
-          {/* Tiêu đề chính dùng màu Đỏ (primary) */}
-          <h2 className="text-4xl font-serif text-primary mt-2">Buchen Sie einen Tisch</h2>
-        </div>
       </div>
 
       {/* Bản đồ Google Maps */}

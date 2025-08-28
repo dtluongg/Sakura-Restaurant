@@ -83,8 +83,8 @@ import specialDish1 from '../assets/specials/special-1.jpg';
 import specialDish2 from '../assets/specials/special-2.jpg';
 import specialDish3 from '../assets/specials/special-3.jpg';
 export const specialsData = {
-  superTitle: "SPECIALS",
-  title: "Check Our Specials",
+  superTitle: "ANGEBOTE",
+  title: "Entdecken Sie unsere Angebote",
   items: [
     { tabTitle: "Menü A (01)", contentTitle: "Sake Maki, Sake, Butterfisch", contentP1: "Ein klassisches Set für Liebhaber von frischem Fisch.", contentP2: "Inklusive Misosuppe. Nur gültig von Montag bis Freitag, 12-15 Uhr.", image: specialDish1 },
     { tabTitle: "Menü B (02)", contentTitle: "Sake Maki, Avocado Maki, Sake, Maguro", contentP1: "Eine ausgewogene Kombination aus Maki und Nigiri.", contentP2: "Inklusive Misosuppe. Nur gültig von Montag bis Freitag, 12-15 Uhr.", image: specialDish2 },
