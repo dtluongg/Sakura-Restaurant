@@ -187,6 +187,7 @@ filters: [
 ],
   "menu": [
     {
+      "description": null,
       "categoryImage":Vorspeisen,
       "category": "Vorspeisen",
       "subcategories": [
@@ -208,6 +209,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Salate,
       "category": "Salate",
       "subcategories": [
@@ -225,6 +227,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Suppen,
       "category": "Suppen",
       "subcategories": [
@@ -244,6 +247,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Sushi,
       "category": "Sushi",
       "subcategories": [
@@ -437,6 +441,7 @@ filters: [
       ]
     },
     {
+      "description": "Jedes Menü enthält eine Miso Suppe oder gegen Aufpreis in Höhe von 2,50€ andere Suppe nach Wunsch.Das gilt nur in Haus.",
       "categoryImage":Salate,
       "category": "Mittagsmenü",
       "subcategories": [
@@ -449,7 +454,7 @@ filters: [
             { "id": "04", "image": image04, "name": "Menü D", "description": "4 St.Ura Maki Kaviar, 4 St. Ura Maki Sesam, Ebi, Sake und Maguro Nigiri", "price": "12,40 €" },
             { "id": "05", "image": image05, "name": "Menü E", "description": "4 St. Sake Ura Maki, Sake Avocado Maki, 2 St. Sake und 2 St. Maguro Nigiri", "price": "18,00 €" },
             { "id": "06", "image": image06, "name": "Menü F", "description": "Vegan Green Rice Ura Maki, Avocado Maki und Kappa Maki.", "price": "13,20 €" },
-            { "id": "07", "image": image07, "name": "Menü G", "description": "4 St. Sake Ura Ten Maki, 4 St. Unagi Ten Ura Maki", "price": "13,00 €" },
+            { "id": "07", "image": image07, "name": "Menü G", "description": "4 St. Sake Ura Ten Maki, 4 St. Unagi Ten Ura Maki", "price": "13,90 €" },
             { "id": "08", "image": image08, "name": "Menü H", "description": "4 St. New York Rolle, 4 St. Ura Maki Kaviar Sake, Butterfisch und Maguro Nigiri", "price": "15,40 €" },
             { "id": "09", "image": image09, "name": "Menü I für 2 Personen", "description": "California Maki, Ura Maki Kaviar, Sake Ura Maki, Unagi Ura Sesam, 2 Sake, 2 Ebi und 2 Maguro Nigiri", "price": "39,20 €" },
             { "id": "10", "image": image10, "name": "Menü J", "description": "Sake und Maguro Sashimi frischer Lachs und Thunfisch in Scheinben (10.St)", "price": "20,90 €" }
@@ -458,6 +463,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Warme_gerichte,
       "category": "Warme Gerichte",
       "subcategories": [
@@ -515,12 +521,13 @@ filters: [
             { "id": "216d", "image": image205_218, "name": "Gebratene Gemüse mit grünem Curry, Kokosmilch, Reis und : ", "description": "d. Gebratener Lachs", "price": "15,10 €" },
             { "id": "217a", "image": image205_218, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "a. Mit Reis", "price": "14,70 €" },
             { "id": "217b", "image": image205_218, "name": "Gegrillter Lachs mit gem.Salat und Teri Yaki Soße: ", "description": "b. Süßkartoffel- Pommes", "price": "15,10 €" },
-            { "id": "218", "image": image205_218, "name": "Gegrilltes Hühnerbrustfilet mit gem.Salat,Reis und Teri Yaki Soße", "description": "", "price": "12,70 €" }
+            { "id": "218", "image": Warme_gerichte, "name": "Gegrilltes Hühnerbrustfilet mit gem.Salat,Reis und Teri Yaki Soße", "description": "", "price": "12,70 €" }
           ]
         }
       ]
     },
     {
+      "description": null,
       "categoryImage":Desserts,
       "category": "Desserts",
       "subcategories": [
@@ -536,6 +543,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Onigiri,
       "category": "Onigiri",
       "subcategories": [
@@ -553,6 +561,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Extras,
       "category": "Extras",
       "subcategories": [
@@ -567,6 +576,7 @@ filters: [
       ]
     },
     {
+      "description": null,
       "categoryImage":Getranke,
       "category": "Getränke",
       "subcategories": [

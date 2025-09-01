@@ -148,11 +148,16 @@ const Menu = () => {
             {/* Màn hình chi tiết danh mục */}
             {selectedCategory && categoryData && (
               <div className="animate-fade-in">
-                <div className="flex items-center mb-8">
+                <div className="flex flex-col items-center mb-8">
                   <button onClick={handleGoBack} className="bg-surface text-text-main hover:bg-border px-4 py-2 rounded-full transition-colors mr-4 flex items-center gap-2">
                     <FaChevronLeft size={12} /> Zurück
                   </button>
                   <h2 className="text-4xl font-serif font-bold text-text-main">{selectedCategory}</h2>
+                  <div className='bg-surface rounded-3xl'>
+                    {categoryData.description && (
+                      <p className='text-secondary mx-2 my-2 text-sm max-w-2xl'>{categoryData.description}</p>
+                    )}
+                  </div>
                 </div>
                 
                 {subcategoryFilters.length > 1 && (
